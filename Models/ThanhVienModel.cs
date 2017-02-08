@@ -15,5 +15,11 @@ namespace Web.Models
         public string Email { get; set; }
         public DateTime NgayDangKy { get; set; }
         public string QuyenHan { get; set; }
+
+        public virtual ICollection<LichSuDownload> LichSuDownloads { get; set; }
+
+        public virtual ICollection<DanhSachTaiLieuYeuTichModel> DanhSachTaiLieuYeuThichs { get; set; }
+
+        public virtual ICollection<BinhLuanModel> BinhLuans { get; set; }
     }
 }

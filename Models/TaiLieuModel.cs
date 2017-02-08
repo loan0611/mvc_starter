@@ -24,5 +24,18 @@ namespace Web.Models
         public string GhiChu { get; set; }
         public decimal Phi { get; set; }
         public string TinhTrang { get; set; }
+
+        public virtual ChuyenDeModel ChuyenDe { get; set; }
+        public virtual NgonNguModel NgonNgu { get; set; }
+        public virtual TacGiaModel TacGia { get; set; }
+        public virtual RatingModel Rating { get; set; }
+
+
+        public virtual ICollection<LichSuDownload> LichSuDownloads { get; set; }
+
+        public virtual ICollection<DanhSachTaiLieuYeuTichModel> DanhSachTaiLieuYeuThichs { get; set; }
+
+        public virtual ICollection<BinhLuanModel> BinhLuans { get; set; }
+
     }
 }

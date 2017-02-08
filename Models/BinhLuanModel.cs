@@ -12,5 +12,8 @@ namespace Web.Models
         public int MaTaiLieu { get; set; }
         public string NDBinhLuan { get; set; }
         public DateTime NgayBL { get; set; }
+
+        public virtual ThanhVienModel ThanhVien { get; set; }
+        public virtual TaiLieuModel TaiLieus { get; set; }
     }
 }

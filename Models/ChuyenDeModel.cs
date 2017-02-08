@@ -9,5 +9,7 @@ namespace Web.Models
     {
         public int MaChuyenDe { get; set; }
         public string ChuyenDe { get; set; }
+
+        public virtual ICollection<TaiLieuModel> TaiLieus { get; set; }
     }
 }

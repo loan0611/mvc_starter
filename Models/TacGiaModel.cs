@@ -9,5 +9,7 @@ namespace Web.Models
     {
         public int MaTacGia { get; set; }
         public string TacGia { get; set; }
+
+        public virtual ICollection<TaiLieuModel> TaiLieus { get; set; }
     }
 }

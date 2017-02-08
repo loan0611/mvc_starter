@@ -1,99 +1,60 @@
-﻿*
-{
-	margin: 0px;
-	padding: 0px;
-	border: none;
+﻿body{
+    font-family:'Franklin Gothic Book';
+    font-size: 12px;
 }
-
-body
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	background-color: #FBF9EF;
-	padding: 0px 6%;
+ 
+#wrapper{
+    width: 1300px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-/*#container
-{
-	float: left;
-}*/
-/*img{
-    width:1179px;
-    height:200px;
-}
-#next{
-    text-transform:uppercase;
-    position:absolute;
-    top:100px;
-    right:10px;
-}
-#prev{
-    text-transform:uppercase;
-    position:absolute;
-    top:100px;
-    left:10px;
-}*/
 #header{
-    height: 100px;
-    background-color: #F5F5F5;
-    border: 1px solid #CDCDCD;
+    height: 150px;
     margin-bottom:5px;
+    background:#ff6a00;
+    background-size:1500px 150px;
 }
-/*#header {
-    position:relative;
-    border: 3px solid #E3E3E3;
-    background-repeat: repeat-x;
-    background-size: cover;
-    margin-bottom:5px;
-}*/
-/*ul{
-    margin:0px; padding:0px;
-    list-style:none;
-    position:absolute;
-    left:550px;
-    top:170px;
-}
-ul li {
-    display: inline;
-    background: orange;
-    padding: 6px;
-    border-radius: 10px;
-    font-weight: bold;
-    }
-ul li.active{
-    background:red;
-    color:yellow;
-}*/
-/*#menu{
-     height: 30px;
-     line-height: 30px;
-     padding-left: 10px;
-     padding-right: 10px;
-     border: 1px solid #CDCDCD;
-     background-color: #F5F5F5;
-     margin-bottom:5px;
-     clear: both;
-}*/
-#left{
-     width: 200px;
-     min-height: 400px;
+#menu{
+     width:200px;
+     min-height: 500px;
      border: 1px solid #CDCDCD;
      float:left;
-     background-color: #004C00;
+     background-color:cornflowerblue;
      margin-bottom: 5px;
+     border-radius:5px;
+}
+ul 
+{
+    float:left;
+    list-style-type:none;
+    padding:0;
+    margin:5px;
+    width:200px;
+    
+}
+ul a
+{
+    text-decoration:none;
+    border: 1px solid white;
+    height:20px;
+    width:200px;
+}
+a:hover
+{
+    text-decoration-color:AppWorkspace;
+    text-shadow:initial;
 }
 #content{
-     width: 987px;
-     min-height: 400px;
+     width:1090.5px;
+     min-height: 500px;
      border: 1px solid #CDCDCD;
      float:left;
      margin-left: 5px;
-     margin-right: 5px;
      margin-bottom: 5px;
 }
 #footer{
-     height: 50px;
+     height: 150px;
      clear: both;
-     border: 1px solid #CDCDCD;
-     background-color: #F8F8FF;
+     background:cornflowerblue;
 }

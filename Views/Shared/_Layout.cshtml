@@ -9,41 +9,22 @@
     <script src="~/Scripts/JavaScript.js"></script>
 </head>
 <body>
-    <div id="header">
-        @*<a href="#" id="prev">
-            Prev*@
-            @*<img src="~/Content/Images/prev_thumb.png" />*@
-        @*</a>
-        <a href="#" id="next">
-            Next
-            @*<img src="~/Content/Images/next_thumb.png" />*@
-        @*</a>*@*
+    @RenderBody()
+    <div id="wrapper">
+        <div id="header">
 
-        @*<img src="~/Content/Images/1.jpg" stt="0" />
-        <img src="~/Content/Images/2.jpg" stt="1" style="display:none" />
-        <img src="~/Content/Images/3.png" stt="2" style="display:none" />
-        <img src="~/Content/Images/4.jpg" stt="3" style="display:none" />
-        <img src="~/Content/Images/5.jpg" stt="4" style="display:none" />
-        <img src="~/Content/Images/6.jpg" stt="5" style="display:none" />*@
+        </div>
+        <div id="menu">
 
-        @*<ul>
-            <li class="active">1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-        </ul>*@
-    </div>
-    <div id="menu"></div>
-    <div id="left">
-    </div>
-    <div id="content">
+        </div>
+        <div id="left">
+        </div>
+        <div id="content">
 
-    </div>
-    <div id="footer"></div>
-    <div>
-        @RenderBody()
+        </div>
+        <div id="footer">
+
+        </div>
     </div>
 </body>
 </html>

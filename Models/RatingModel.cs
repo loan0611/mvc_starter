@@ -14,5 +14,7 @@ namespace Web.Models
         public int SL4Sao { get; set; }
         public int SL5Sao { get; set; }
         public int TBSao { get; set; }
+
+        public virtual ICollection<TaiLieuModel> TaiLieus { get; set; }
     }
 }

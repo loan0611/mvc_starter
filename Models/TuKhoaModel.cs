@@ -9,5 +9,7 @@ namespace Web.Models
     {
         public int MaTuKhoa { get; set; }
         public string TuKhoa { get; set; }
+
+        public virtual ICollection<TuKhoaTaiLieuModel> TuKhoaTaiLieus { get; set; }
     }
 }

@@ -13,5 +13,6 @@ namespace Web.Models
         public string NDReply { get; set; }
         public DateTime NgayReply { get; set; }
 
+
     }
 }

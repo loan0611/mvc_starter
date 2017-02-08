@@ -9,5 +9,8 @@ namespace Web.Models
     {
         public int MaThanhVien { get; set; }
         public int MaTaiLieu { get; set; }
+
+        public virtual ThanhVienModel ThanhVien { get; set; }
+        public virtual TaiLieuModel TaiLieu { get; set; }
     }
 }

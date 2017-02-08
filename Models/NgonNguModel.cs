@@ -9,5 +9,8 @@ namespace Web.Models
     {
         public int MaNgonNgu { get; set; }
         public string NgonNgu { get; set; }
+
+        public virtual ICollection<TaiLieuModel> TaiLieus { get; set; }
+
     }
 }
