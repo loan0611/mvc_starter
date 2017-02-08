@@ -15,5 +15,8 @@ namespace Web.Models
 
         public virtual ThanhVienModel ThanhVien { get; set; }
         public virtual TaiLieuModel TaiLieus { get; set; }
+
+        public virtual ICollection<ReplyModel> Replys { get; set; }
+
     }
 }

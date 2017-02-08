@@ -21,5 +21,7 @@ namespace Web.Models
         public virtual ICollection<DanhSachTaiLieuYeuTichModel> DanhSachTaiLieuYeuThichs { get; set; }
 
         public virtual ICollection<BinhLuanModel> BinhLuans { get; set; }
+
+        public virtual ICollection<ReplyModel> Replys { get; set; }
     }
 }

@@ -13,6 +13,7 @@ namespace Web.Models
         public string NDReply { get; set; }
         public DateTime NgayReply { get; set; }
 
-
+        public virtual BinhLuanModel BinhLuan { get; set; }
+        public virtual ThanhVienModel ThanhVien { get; set; }
     }
 }
